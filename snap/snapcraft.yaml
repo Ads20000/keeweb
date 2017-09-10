@@ -23,4 +23,4 @@ parts:
     install:
       grunt
     after:
-- desktop-glib-only
+      - desktop-glib-only
