@@ -20,6 +20,8 @@ parts:
     source-tag: v1.5.4
     plugin: nodejs
     node-package-manager: yarn
+    node-packages:
+      - grunt
     install:
       grunt
     after:
